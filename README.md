@@ -67,8 +67,15 @@ The project includes a production-ready **Flask API** (`app.py`) that:
 
 *Note: The model is automatically fetched from a remote server upon deployment for efficiency.*
 
+## Mobile Integration
+The system is fully operational on Android devices via the **InstrumentFinder** application. 
+- **Communication:** The app sends audio recordings to the Flask API.
+- **Processing:** The server performs real-time MFCC extraction and runs the pre-trained SVM/GB model.
+- **Feedback:** Results are returned to the user with a probability distribution for each instrument.
+
 ## Repository Structure
 * `/notebooks` - Step-by-step experiments (data prep, MFCC, model training).
 * `/src` - Core scripts including the Flask API.
 * `requirements.txt` - Dependency list for easy environment setup.
 * `/results_images` - Confusion Matrices images
+
