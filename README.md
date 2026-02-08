@@ -77,5 +77,4 @@ The system is fully operational on Android devices via the **InstrumentFinder** 
 * `/notebooks` - Step-by-step experiments (data prep, MFCC, model training).
 * `/src` - Core scripts including the Flask API.
 * `requirements.txt` - Dependency list for easy environment setup.
-* `/results_images` - Confusion Matrices images
-
+* `/results_images` - Confusion Matrices images.
